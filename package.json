@@ -1,5 +1,5 @@
 {
-  "name": "ui5-translator",
+  "name": "@facuferrer86/ui5-translator",
   "version": "1.0.0",
   "description": "A CLI to translate between languages in the terminal.",
   "main": "bin/index.js",
@@ -10,7 +10,7 @@
   "license": "ISC",
   "keywords": [],
   "bin": {
-    "ui5-translator": "./bin/index.js"
+    "ui5-translator": "bin/index.js"
   },
   "type": "module",
   "dependencies": {
@@ -19,5 +19,14 @@
     "boxen": "^4.2.0",
     "chalk": "^4.1.1",
     "yargs": "^16.1.1"
-  }
+  },
+  "devDependencies": {},
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/facuferrer86/ui5-translator.git"
+  },
+  "bugs": {
+    "url": "https://github.com/facuferrer86/ui5-translator/issues"
+  },
+  "homepage": "https://github.com/facuferrer86/ui5-translator#readme"
 }
